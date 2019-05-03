@@ -1,11 +1,11 @@
 <div class="col-md-10 col-md-offset-1">
   <h2 class="uneaten-title">Current Burgers</h2>
   <ul class="uneaten">
-    <img id="pacman" src="../img/pacman.png" width="100px">
+    <img id="goku" src="../public/images/ss4eatv1.jpg" width="100px">
     {{#each burgers}}
       {{#unless this.devoured}}
         <li>
-          <img src="../img/cuteburger.png" width="100px">
+          <img src="../public/images/burger.jpg" width="100px">
           <p>
             {{this.burger_name}}
           </p>
@@ -17,7 +17,6 @@
       {{/unless}}
     {{/each}}
   </ul>
-  <img id="ghost" src="../img/ghost.png" width="150px">
 </div>
 
 <div class="row">

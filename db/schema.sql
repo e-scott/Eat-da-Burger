@@ -11,9 +11,9 @@ CREATE TABLE burgers
 	PRIMARY KEY (id)
 ); 
 
-INSERT INTO burgers (burger_name) VALUES ('Rodeo Burger');
-INSERT INTO burgers (burger_name) VALUES ('Toro Burger');
-INSERT INTO burgers (burger_name) VALUES ('Brisket Burger');
-INSERT INTO burgers (burger_name) VALUES ('Texas Burger');
-INSERT INTO burgers (burger_name) VALUES ('Buffalo Burger');
-INSERT INTO burgers (burger_name, devoured) VALUES ('BBQ Chicken Burger', true);
+INSERT INTO burgers (burger_name) VALUES ('Crescent Burger');
+INSERT INTO burgers (burger_name) VALUES ('Luther Burger');
+INSERT INTO burgers (burger_name) VALUES ('Bacon Burger Turbo');
+INSERT INTO burgers (burger_name) VALUES ('Elvis Burger');
+INSERT INTO burgers (burger_name) VALUES ('Turducken Slammer Burger');
+INSERT INTO burgers (burger_name, devoured) VALUES ('Rinacita Burger', true);
