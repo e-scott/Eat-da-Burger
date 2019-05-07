@@ -5,3 +5,31 @@ input {
 .uneaten-title {
     text-align: center;
   }
+
+  #goku {
+    float: left;
+    border-radius: 20%;
+  }
+
+  #burg {
+    border-radius: 45%;
+  }
+
+  ul.uneaten li{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+  }
+
+  #update {
+    text-align: center;
+  }
+
+  #eaten {
+    text-align: center;
+  }
+
+  .burgers-eaten {
+    overflow-y: scroll;
+  }
