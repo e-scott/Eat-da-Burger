@@ -1,7 +1,9 @@
 var mysql = require('mysql');
+
 var connection;
 
 if(process.env.JAWSDB_URL) {
+    require('dotenv').load();
     console.log('jaws1');
 	connection = mysql.createConnection(process.env.JAWSDB_URL);
     console.log('jaws2');
